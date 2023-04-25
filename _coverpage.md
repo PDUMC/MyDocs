@@ -5,6 +5,6 @@
 
 
 
-[查看文档](README.md)
+[查看](README.md)
 
 ![](./imgs/background.jpg)
