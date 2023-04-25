@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>绘梦我的世界</title>
+  <title>果冻的文档</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -15,10 +15,10 @@
   <script>
     window.$docsify = {
       onlyCover: true,
-      name: '绘梦我的世界',
+      name: '果冻的文档',
       repo: 'true',
       corner: {
-        url: "https://github.com/PDUMC/Docs",
+        url: "https://github.com/PDUMC/MyDocs",
         icon: "github",
       },
       loadSidebar: true,
@@ -34,6 +34,10 @@
       //themeColor: '#3299cc',
       notFoundPage: '404.md',
       maxLevel: 4,
+      timeUpdater: {
+        text: "<div align='right'>{docsify-updated}</div>",
+        formatUpdated: "{YYYY}/{MM}/{DD}  {HH}:{ss}",
+      },
       pagination: {
         previousText: '上一章节',
         // or
@@ -65,7 +69,7 @@
           var footer = [
             '<hr/>',
             '<footer>',
-            '<span><a href="http://pdumc.top">绘梦我的世界</a> &copy;2020-2022</span>',
+            '<span><a href="https://github.com/PDUMC/MyDocs">果冻的文档</a> &copy;2023</span>',
             '</footer>'
           ].join('');
 
@@ -90,6 +94,8 @@
 
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/docsify-updated/src/time-updater.js"></script>
 
   <script src="//cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts/dist/docsify-plugin-flexible-alerts.min.js"
     defer></script>
